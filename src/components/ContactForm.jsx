@@ -67,6 +67,9 @@ const ContactForm = () => {
             onChange={(e) =>
               setFormDetails({ ...formDetails, [e.target.name]: e.target.value })
             }
+            required
+            maxLength={20}
+            min={10}
           />
 
           <input
