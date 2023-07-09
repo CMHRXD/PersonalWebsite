@@ -54,7 +54,8 @@ export const Banner = () => {
           <div className="">
             <span className="tagline">Welcome to my Portfolio</span>
             <h1 className="text-5xl md:text-6xl font-bold">
-              {`Hi! I'm Cristian Hernandez`}{" "}
+              {`Hi! I'm Cristian Hernandez, `}
+              <br></br>{" "}
               <span
                 className="txt-rotate"
                 dataperiod="1000"
@@ -64,11 +65,12 @@ export const Banner = () => {
               </span>
             </h1>
             <p className="mt-12 rounded-lg ">
-              I`m specialized in MERN
-              Stack development to create robust and scalable web applications,
-              API integrations, and efficient business process automation
-              solutions. Strong expertise in JavaScript and agile methodologies,
-              ensuring seamless delivery of high-quality applications.
+              I am a passionate software developer specializing in web
+              development, driven by a strong dedication to building robust and
+              scalable web applications and API integrations. My main goal is
+              continuous improvement as a developer, so I am committed to
+              staying ahead of the industry by constantly learning and staying
+              updated with the latest trends and emerging technologies.
             </p>
             <button
               className="mb-10 rounded-lg  tagline hover:cursor-pointer"

@@ -20,6 +20,8 @@ import {
   SiHeroku,
   SiRailway,
   SiTailwindcss,
+  SiSqlite,
+  SiSnowflake
 } from "react-icons/si";
 import SiPython from "../assets/icons/py-icon.svg";
 import SiJava from "../assets/icons/java-icon.svg";
@@ -66,6 +68,18 @@ export const SkillsList = () => {
       name: "SQL Server",
       icon: (
         <SiMicrosoftsqlserver className="w-10 h-10 bg-white rounded-full text-red-600 p-1" />
+      ),
+    },
+    {
+      name: "SQLite",
+      icon: (
+        <SiSqlite className="w-10 h-10 bg-white rounded-full text-blue-600 p-1" />
+      ),
+    },
+    {
+      name: "Snowflake",
+      icon: (
+        <SiSnowflake className="w-10 h-10 bg-white rounded-full text-blue-600 p-1" />
       ),
     },
     {
